@@ -27,7 +27,7 @@ section > h1 {
     width: 100%;
     background-color: #03000b98;
     color: white;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
     display: flex;
     align-items: center;
     z-index: 999;
@@ -35,8 +35,8 @@ section > h1 {
 }
 nav li{
     display: inline-block;
-    padding-right: 80px;
-    padding-left: 80px;
+    padding-right: 90px;
+    padding-left: 90px;
     font-size: 25px;
     vertical-align: middle;
 }
