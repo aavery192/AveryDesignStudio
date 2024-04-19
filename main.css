@@ -4,6 +4,32 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
+        /* hero section */
+.hero{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 30% 20% 10%;
+    grid-column-gap: 0px;
+    grid-row-gap:20px;
+    padding-top: 7em;
+}
+#logo2{
+    grid-area: 1 / 2 / 3 / 4;
+    fill: rgb(255, 255, 255);
+    width: 890px;
+    filter: drop-shadow(5px 7px 5px rgb(0 0 0 / 0.7));
+
+}
+#header{
+    grid-area: 3 / 2 / 3 / 4;
+    font-size: 112px;
+    text-align: center;
+    color: white;
+    font-family: 'Rochester', cursive;
+    letter-spacing: -1px;
+    text-shadow: 5px 7px 5px rgb(0 0 0 / 0.2);
+}
+        /* hero section */
 section{
     color: white;
     display: flex;
@@ -14,14 +40,14 @@ section{
 section > h1 {
     font-size:6vw;
 }
-/* section:nth-child(even) {
-    background-color:blue
-} */
+        /* Navigation Controls */
 #logo{
     height: 70px;
     fill:white; 
   }
-        /* Navigation Controls */
+#logo:hover{
+    fill: #b8c2ff;
+}
 #navigation {
     height: 80px;
     width: 100%;
@@ -31,7 +57,8 @@ section > h1 {
     display: flex;
     align-items: center;
     z-index: 999;
-    color:#ffffff;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
 }
 nav li{
     display: inline-block;
@@ -40,9 +67,13 @@ nav li{
     font-size: 25px;
     vertical-align: middle;
 }
-/* .nav-text{
-    padding-block: 20px;
-} */
+nav a{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover{
+    color: #b8c2ff;
+}
 #navigation:not(.sticky){
     position: absolute;
     bottom: 0;
