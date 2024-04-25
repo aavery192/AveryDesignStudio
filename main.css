@@ -1,8 +1,8 @@
 body{
     margin: 0;
-    background-image: url(darkbackground.jpg);
+    background-image: url(reverselightbackground.png);
     background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-color: #576D93;
 }
         /* hero section */
 .hero{
@@ -24,14 +24,15 @@ body{
     grid-area: 3 / 2 / 3 / 4;
     font-size: 112px;
     text-align: center;
-    color: white;
+    color: #ffffff;
     font-family: 'Rochester', cursive;
     letter-spacing: -1px;
     text-shadow: 5px 7px 5px rgb(0 0 0 / 0.2);
+    width: auto;
 }
         /* hero section */
 section{
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -51,7 +52,7 @@ section > h1 {
 #navigation {
     height: 80px;
     width: 100%;
-    background-color: #03000b98;
+    /* background-color: #03000b98; */
     color: white;
     /* text-transform: uppercase; */
     display: flex;
@@ -68,7 +69,7 @@ nav li{
     vertical-align: middle;
 }
 nav a{
-    color: white;
+    color: rgb(235, 243, 255);
     text-decoration: none;
 }
 nav a:hover{
@@ -81,6 +82,7 @@ nav a:hover{
 .sticky{
     position: fixed;
     top: 0;
+    background-color: #47547fb6;
    }
         /* Navigation Controls */
 /* *{
