@@ -7,11 +7,11 @@ body{
         /* hero section */
 .hero{
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: 30% 20% 10%;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 30% 30% 30%;
     grid-column-gap: 0px;
-    grid-row-gap:20px;
-    padding-top: 7em;
+    grid-row-gap:0px;
+
 }
 #logo2{
     grid-area: 1 / 2 / 3 / 4;
@@ -31,13 +31,6 @@ body{
     width: auto;
 }
         /* hero section */
-section{
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
 section > h1 {
     font-size:6vw;
 }
@@ -88,3 +81,38 @@ nav a:hover{
 /* *{
     outline: auto;
 } */
+        /* Portfolio Section */
+        .portfolio {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+            grid-template-rows: 1fr 2fr 1fr;
+            grid-column-gap: 0px;
+            grid-row-gap: 0px;
+            }
+            h1 {  
+                color: white;
+                text-align: center;
+                font-family: 'Libre Baskerville', serif;
+                font-size: 60px;
+            }
+            #title{
+                grid-area: 1 / 1 / 2 / 7;
+            }
+            #project-1 { 
+                grid-area: 2 / 1 / 4 / 3;
+                scale: .8;
+            }
+            #project-2 { 
+                grid-area: 2 / 3 / 4 / 5; 
+                scale: .8;
+            }
+            #project-3 { 
+                grid-area: 2 / 5 / 4 / 7; 
+                scale: .8;
+            }
+            #button{
+                grid-area: 4 / 3 / 5 / 5;
+                text-align: center;
+                font-size: 20px;
+            }
+        
