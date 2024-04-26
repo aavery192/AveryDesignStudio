@@ -11,24 +11,21 @@ body{
     grid-template-rows: 30% 30% 30%;
     grid-column-gap: 0px;
     grid-row-gap:0px;
-
 }
 #logo2{
     grid-area: 1 / 2 / 3 / 4;
     fill: rgb(255, 255, 255);
     width: 890px;
     filter: drop-shadow(5px 7px 5px rgb(0 0 0 / 0.7));
-
 }
 #header{
-    grid-area: 3 / 2 / 3 / 4;
+    grid-area: 3 / 2 / 4 / 4;
     font-size: 112px;
     text-align: center;
     color: #ffffff;
     font-family: 'Rochester', cursive;
     letter-spacing: -1px;
     text-shadow: 5px 7px 5px rgb(0 0 0 / 0.2);
-    width: auto;
 }
         /* hero section */
 section > h1 {
@@ -47,7 +44,6 @@ section > h1 {
     width: 100%;
     /* background-color: #03000b98; */
     color: white;
-    /* text-transform: uppercase; */
     display: flex;
     align-items: center;
     z-index: 999;
