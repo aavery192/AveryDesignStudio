@@ -1,6 +1,6 @@
     body{
         margin: 0;
-        background-image: url(reverselightbackground2.png);
+        background-image: url(assets/reverselightbackground2.png);
         background-repeat: no-repeat;
         background-color: #576D93;
         font-family: 'Libre Baskerville', serif;
@@ -14,7 +14,7 @@
 /* page grid */
     }
     section{
-        height: 830px;
+        height: 820px;
     }
 /* hero section */
     .hero{
@@ -143,6 +143,12 @@
                 filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.7));
             }
 /* Portfolio Section */
+/* About-Me Section */
+            .about-me{
+                background-color: #1B1F30;
+
+            }
+/* About-Me Section */
         /* *{
             outline: auto;
         } */
