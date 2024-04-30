@@ -1,0 +1,43 @@
+/* Navigation Controls Start */
+#logo{
+    height: 70px;
+    fill:#D7EAFF; 
+}
+#logo:hover{
+    fill: #b8c2ff;
+}
+#navigation {
+    height: 80px;
+    width: 100%;
+    /* background-color: #03000b98; */
+    color: #D7EAFF;
+    display: flex;
+    align-items: center;
+    z-index: 999;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+}
+nav li{
+    display: inline-block;
+    padding-right: 120px;
+    padding-left: 120px;
+    font-size: 25px;
+    vertical-align: middle;
+}
+nav a{
+    color: rgb(235, 243, 255);
+    text-decoration: none;
+}
+nav a:hover{
+    color: #b8c2ff;
+}
+#navigation:not(.sticky){
+    position: absolute;
+    bottom: 0;
+}
+.sticky{
+    position: fixed;
+    top: 0;
+    background-color: #44577fa2;
+}
+/* Navigation Controls End */

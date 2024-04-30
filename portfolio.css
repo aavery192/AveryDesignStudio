@@ -1,0 +1,14 @@
+body{
+    background-image: url(assets/reverselightbackground2.png);
+    background-repeat: no-repeat;
+    background-color: #576D93;
+    font-family: 'Libre Baskerville', serif;
+}
+.header{
+    height: 820px;
+}
+h1{
+    font-size: 112px;
+    text-align: center;
+    color: #ffffff;
+}
