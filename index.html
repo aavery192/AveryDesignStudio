@@ -42,9 +42,9 @@
                             <path class="cls-1" d="M57.88,41.15c-1,1.89-4.49,3.6-6.27,5.91-.15.2-.38.3-.61.3h-.03c-.23,0-.46-.11-.61-.3-1.77-2.31-5.27-4.02-6.27-5.91-1.36-2.57-.62-4.84.72-5.7.37-.24.79-.37,1.22-.37,1.28.01,2.81.63,4.47,1.63.15.09.32.12.49.11.17.02.33-.02.48-.11,1.66-1,3.19-1.62,4.48-1.63.43,0,.84.12,1.22.36,1.34.86,2.09,3.13.72,5.7Z"/>
                         </svg></a>
                     </li>
-                    <li><a href="portfolio.html">Portfolio</a></li>
-                    <li><a href="index.html#about-me">About Me</a></li>
-                    <li><a href="index.html#contact">Contact</a></li>
+                    <li id="tab-portfolio"><a href="portfolio.html">Portfolio</a></li>
+                    <li id="tab-about-me"><a href="index.html#about-me">About Me</a></li>
+                    <li id="tab-portfolio"><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
     </section>
@@ -67,18 +67,17 @@
     </section>
     <section id="contact">
         <h1>Contact</h1>
-        <ul id="contact-logos">
-            <li class="icons"><a href="mailto:averydesignstudio192@gmail.com">
-                <svg version="1.1" id="email" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+        <div class="icon-container">
+            <a href="mailto:averydesignstudio192@gmail.com">
+                <svg version="1.1" class="icons" id="email" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
                     viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve">
                     <path d="M256,352c-16.5,0-33.1-5.4-47.2-16.4L0,173.2V400c0,26.5,21.5,48,48,48h416c26.5,0,48-21.5,48-48V173.2L303.2,335.7
                     C289.1,346.6,272.5,352,256,352z M16.3,145.3l212.2,165.1c16.2,12.6,38.9,12.6,55.1,0l212.2-165.1c9.4-8,16.2-20.3,16.2-33.3
                     c0-26.5-21.5-48-48-48H48C21.5,64,0,85.5,0,112C0,125,6,137.3,16.3,145.3z"/>
                 </svg>
             </a>
-            </li>
-            <li class="icons"><a href="https://www.instagram.com/avery_designstudio/">
-                <svg version="1.1" id="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            <a href="https://www.instagram.com/avery_designstudio/">
+                <svg version="1.1" class="icons" id="instagram" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	                viewBox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve">
                     <g>
 	                <path d="M28.2,16.7c-7,0-12.8,5.7-12.8,12.8s5.7,12.8,12.8,12.8S41,36.5,41,29.5S35.2,16.7,28.2,16.7z M28.2,37.7
@@ -91,9 +90,8 @@
                     </g>
                 </svg>
             </a>
-            </li>
-            <li class="icons"><a href="https://www.linkedin.com/in/amanda-b-avery/">
-                <svg version="1.1" id="linked-in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+            <a href="https://www.linkedin.com/in/amanda-b-avery/">
+                <svg version="1.1" class="icons" id="linked-in" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
 	                viewBox="0 0 56.7 56.7" style="enable-background:new 0 0 56.7 56.7;" xml:space="preserve">
                 <g>
 	            <path d="M30.1,27.1L30.1,27.1C30.1,27,30,27.1,30.1,27.1L30.1,27.1z"/>
@@ -104,8 +102,7 @@
                 </g>
                 </svg>
             </a>
-            </li>
-        </ul>
+        </div>
     </section>
     <footer>
         <p>footer</p>

@@ -41,3 +41,30 @@ nav a:hover{
     background-color: #44577fa2;
 }
 /* Navigation Controls End */
+/* mobile setting */
+@media screen and (max-width: 800px) {
+    #navigation {
+        height: 80px;
+        background-color: rgb(69, 69, 69);
+        display: list-item;
+    }
+    #logo{
+    height: 70px;
+    align-self: center;
+    }
+    #tab-portfolio{
+
+    }
+    #tab-about-me{
+
+    }
+    #tab-contact{
+    }
+    nav li{
+        display: inline-block;
+        padding-right: 10vw;
+        padding-left: 10vw;
+        font-size: 16px;
+        vertical-align: middle;
+    }
+}
