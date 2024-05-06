@@ -85,7 +85,10 @@ nav a:hover{
     }
     #navigation:not(.sticky){
         position: absolute;
-        top: 220px;
+        top: 50vw;
+        background-color: #1b1f30db;
+    }
+    .sticky{
         background-color: #1b1f30db;
     }
 }

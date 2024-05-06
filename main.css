@@ -175,9 +175,24 @@
 /* Contact Section End */
 /* Footer Section Start */
             footer{
-                height: 100px;
+                width: 100%;
+                height: 12vw;
                 background-color: #1B1F30;
+                color: #D7EAFF;
             }
+            #footer-h2{
+                font-family: 'Rochester', cursive;
+                text-align: center;
+            }
+            #footer-p{
+                text-align: center;
+            }
+            #footer-a{
+                text-decoration:none;
+                color: #819dcc;
+                font-style: bold;
+            }
+            
 /* Footer Section End */
         /* *{
             outline: auto;

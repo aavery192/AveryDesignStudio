@@ -3,9 +3,10 @@ body{
     background-repeat: no-repeat;
     background-color: #576D93;
     font-family: 'Libre Baskerville', serif;
+    overflow-y: hidden;
 }
 .header{
-    height: 820px;
+    height: 54vw;
     vertical-align: middle;
 }
 .projects{
@@ -34,7 +35,7 @@ body{
     filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.7));
 }
 h1{
-    font-size: 112px;
+    font-size: 7vw;
     text-align: center;
     color: #ffffff;
     text-shadow: 5px 7px 5px rgb(0 0 0 / 0.2);
