@@ -58,7 +58,7 @@ nav a:hover{
     }
 
     #navigation {
-        height: 90px;
+        height: 80px;
         width: 100%;
         /* background-color: #03000b98; */
         color: #D7EAFF;
@@ -74,7 +74,7 @@ nav a:hover{
         padding-right: 8vw;
         padding-left: 8vw;
         font-size: 12px;
-        vertical-align: middle;
+        position: relative;left: -20px;
     }
     nav a{
         color: rgb(235, 243, 255);
@@ -84,9 +84,8 @@ nav a:hover{
         color: #b8c2ff;
     }
     #navigation:not(.sticky){
-        position: fixed;
-        top: 0;
-        background-color: #44577fa2;
+        position: absolute;
+        top: 220px;
+        background-color: #1b1f30db;
     }
-
 }
