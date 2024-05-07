@@ -3,7 +3,7 @@ body{
     background-repeat: no-repeat;
     background-color: #576D93;
     font-family: 'Libre Baskerville', serif;
-    overflow-y: hidden;
+    overflow-x: hidden;
 }
 .header{
     height: 54vw;
