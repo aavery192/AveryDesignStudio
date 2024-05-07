@@ -17,6 +17,7 @@
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
 }
+
 nav li{
     display: inline-block;
     padding-right: 8vw;
@@ -38,7 +39,7 @@ nav a:hover{
 .sticky{
     position: fixed;
     top: 0;
-    background-color: #44577fa2;
+    background-color: #1b1f30db;
 }
 /* Navigation Controls End */
 /* mobile setting */

@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+    background-image: url(assets/reverselightbackground2.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-color: #576D93;
+    font-family: 'Libre Baskerville', serif;
+}
+section{
+    height: 54vw;
+}
+/* Footer Section Start */
+footer{
+    width: 100%;
+    height: fit-content;
+    background-color: #1B1F30;
+    color: #D7EAFF;
+}
+#footer-h2{
+    font-family: 'Rochester', cursive;
+    text-align: center;
+}
+#footer-p{
+    text-align: center;
+}
+#footer-a{
+    text-decoration:none;
+    color: #819dcc;
+    font-style: bold;
+}
+
+/* Footer Section End */

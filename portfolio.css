@@ -1,10 +1,13 @@
 body{
     background-image: url(assets/fishbackground-8.png);
     background-repeat: no-repeat;
+    background-size:contain;
     background-color: #576D93;
     font-family: 'Libre Baskerville', serif;
     overflow-x: hidden;
+    margin:0 auto;
 }
+
 .header{
     height: 54vw;
     vertical-align: middle;
@@ -14,7 +17,9 @@ body{
     grid-gap: 10px;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     grid-auto-rows: auto;
-    margin: 10px;
+    padding-top: 70px;
+    margin:40px;
+    
 }
 .projects-and-titles{
     color: #1B1F30;
@@ -45,4 +50,33 @@ h2{
 }
 h2:hover{
     text-align: center;
+}
+/* Footer Section Start */
+footer{
+    height: fit-content;
+    background-color: #1B1F30;
+    color: #D7EAFF;
+}
+#footer-h2{
+    font-family: 'Rochester', cursive;
+    text-align: center;
+}
+#footer-p{
+    text-align: center;
+}
+#footer-a{
+    text-decoration:none;
+    color: #819dcc;
+    font-style: bold;
+}
+
+/* Footer Section End */
+@media screen and (max-width: 800px) {
+.projects{
+    width: 80%;
+    margin:0 auto;
+}
+#footer-h2{
+    font-size:20px;
+}
 }
