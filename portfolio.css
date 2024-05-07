@@ -72,6 +72,9 @@ footer{
 
 /* Footer Section End */
 @media screen and (max-width: 800px) {
+body{
+    overflow-x: hidden;
+}
 .projects{
     width: 80%;
     margin:0 auto;

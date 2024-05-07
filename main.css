@@ -211,10 +211,9 @@
         } */
         /* Style For Mobile */
     @media screen and (max-width: 800px) {
-        /* body{
-            background-image: url(assets/home-phone.png);
-            background-size:contain
-        } */
+        body{
+            overflow-x: hidden;
+        }
         .hero{
             height: 66vw;
         }
