@@ -79,9 +79,6 @@ p{
 }
 img{
     filter: drop-shadow(5px 5px 5px rgb(0 0 0 / 0.7));
-    filter: brightness(60%);
-}
-img:hover{
     filter: brightness(100%);
 }
 /* Lacs */
