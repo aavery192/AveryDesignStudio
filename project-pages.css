@@ -82,6 +82,24 @@ img{
     filter: brightness(100%);
 }
 /* Lacs */
+/* Jumpstart */
+.projects{
+    width: 900px;
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-auto-rows: auto;
+    margin:0 auto;
+}
+.posts{
+    grid-column: span 2;
+    width: 100%;
+    object-fit: cover;
+}
+
+
+
+/* Jumpstart */
 /* Footer Section Start */
  footer{
                 width: 100%;
@@ -171,5 +189,8 @@ img{
     div{
         margin:0px;
         height: auto;
+    }
+    .projects{
+        width: fit-content;
     }
 }
