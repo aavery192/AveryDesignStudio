@@ -83,24 +83,24 @@ img{
 }
 /* Lacs */
 /* Footer Section Start */
-footer{
-    width: 100%;
-    height: fit-content;
-    background-color: #1B1F30;
-    color: #D7EAFF;
-}
-#footer-h2{
-    font-family: 'Rochester', cursive;
-    text-align: center;
-}
-#footer-p{
-    text-align: center;
-}
-#footer-a{
-    text-decoration:none;
-    color: #819dcc;
-    font-style: bold;
-}
+ footer{
+                width: 100%;
+                height: fit-content;
+                background-color: #1B1F30;
+                color: #D7EAFF;
+            }
+            #footer-h2{
+                font-family: 'Rochester', cursive;
+                text-align: center;
+            }
+            #footer-p{
+                text-align: center;
+            }
+            #footer-a{
+                text-decoration:none;
+                color: #819dcc;
+                font-style: bold;
+            }
 
 /* Footer Section End */
 @media screen and (max-width: 800px) {
