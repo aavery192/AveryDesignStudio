@@ -53,6 +53,7 @@ h2:hover{
 }
 /* Footer Section Start */
 footer{
+    width: 100%;
     height: fit-content;
     background-color: #1B1F30;
     color: #D7EAFF;
@@ -60,9 +61,13 @@ footer{
 #footer-h2{
     font-family: 'Rochester', cursive;
     text-align: center;
+    font-size: 2vw;
+    padding-top: 10px;
 }
 #footer-p{
+    padding: 10px;
     text-align: center;
+    margin:0;
 }
 #footer-a{
     text-decoration:none;
