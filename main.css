@@ -97,7 +97,9 @@
                 background-color: #1B1F30;
                 color: rgb(255, 255, 255);
                 margin: auto;
+                margin-top: 60px;
                 border-radius: 35px;
+
             }
             #button:hover{
                 background-color: #353c5e;
